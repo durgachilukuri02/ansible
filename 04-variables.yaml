@@ -1,10 +1,10 @@
 - name: variables to print
   hosts: wed
   vars:
-   COURSE: "Devops with AWS"
-   DURATION: "120HR"
-   TRAINER: "Sivskumar Reddy M"
-  task:
+    COURSE: "Devops with AWS"
+    DURATION: "120HR"
+    TRAINER: "Sivskumar Reddy M"
+  tasks:
   - name: print the informatin
     anasible.builtin.debug:
-     msg: "Hi I am learning {{COURSE}}, Duration is: {{DURATION}}, Trainer is: {{TRAINER}}" 
+      msg: "Hi I am learning {{COURSE}}, Duration is: {{DURATION}}, Trainer is: {{TRAINER}}" 
