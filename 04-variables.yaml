@@ -1,5 +1,5 @@
 - name: variables to print
-  hosts: wed
+  hosts: web
   vars:
     COURSE: "Devops with AWS"
     DURATION: "120HR"
