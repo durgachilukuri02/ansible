@@ -1,6 +1,6 @@
 - name: variables to print
   hosts: wed
-  tasks:
+  vars:
    COURSE: "Devops with AWS"
    DURATION: "120HR"
    TRAINER: "Sivskumar Reddy M"
