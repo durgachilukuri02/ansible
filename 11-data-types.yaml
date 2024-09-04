@@ -18,7 +18,7 @@
       cloud: aws
       aws: 
       - IAM
-      -S3
+      - S3
   tasks:
   - name: print the course info
     ansible.builtin.debug:
